@@ -16,6 +16,7 @@ namespace webCrudnet6.Controllers
         [HttpGet]
         public IActionResult Get() { return Ok(Users()); }
 
+
         [HttpPost]
         public IActionResult Post(User user) { 
             
